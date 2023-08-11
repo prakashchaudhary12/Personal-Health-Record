@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(registrationdoctor.jpg); 
+	background-position: center;
+	background-size: cover;
+	position: absolute; 
+}
+.form-box{
+	width: 480px;
+	height:650px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+}
+.button-box{
+	width: 270px;
+	margin: 35px 100px;
+	position: relative;
+	box-shadow: 9px 13px 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 15px 70px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 270px;
+	height: 100%;
+	background: Linear-gradient(to right, #ff105f,#ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group{
+	top: 140px;
+	position: absolute;
+	width: 400px;
+	transition: .5s;
+	font-size:16;
+}
+
+.submit-btn{
+	width:55%;
+	padding: 15px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 6% 120px;
+	background: linear-gradient(109.6deg, rgb(120, 143, 251) 11.2%, rgb(133, 235, 255) 91.1%);
+	border: 0;
+	outline: none;
+	color:blue;
+}
